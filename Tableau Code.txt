@@ -1,0 +1,13 @@
+IF [Product Category Name English] IN ('food', 'food_drink', 'drinks') THEN 'Food' 
+ELSEIF [Product Category Name English] IN ('auto') THEN 'Automotive'
+ELSEIF [Product Category Name English] IN ('art','arts_and_craftmanship','party_supplies','christmas_supplies') THEN 'Art & Craft'
+ELSEIF [Product Category Name English] IN ('audio', 'electronics','computers_accessories','pc_gamer','computers','consoles_games','telephony','watches_gifts') THEN 'Tech'
+ELSEIF [Product Category Name English] IN ('sports_leisure','fashion_bags_accessories','fashion_shoes','fashion_sport','fashio_female_clothing','fashion_male_clothing','fashion_childrens_clothes','fashion_underwear_beach','luggage_accessories') THEN 'Fashion'
+ELSEIF [Product Category Name English] IN ('bed_bath_table','home_confort','home_comfort_2','air_conditioning','home_appliances','home_appliances_2','small_appliances','garden_tools','flowers','la_cuisine','furniture_mattress_and_upholstery','office_furniture','furniture_bedroom','furniture_living_room','small_appliances_home_oven_and_coffee','portable_kitchen_food_processors','housewares','kitchen_dining_laundry_garden_furniture','furniture_decor') THEN 'Home & Living'
+ELSEIF [Product Category Name English] IN ('home_construction','construction_tools_construction','costruction_tools_tools','construction_tools_lights','costruction_tools_garden','construction_tools_safety') THEN 'Construction'
+ELSEIF [Product Category Name English] IN ('books_imported','books_general_interest','books_technical') THEN 'Book'
+ELSEIF [Product Category Name English] IN ('baby','health_beauty','toys','diapers_and_hygiene','perfumery') THEN 'Beauty & Baby'
+ELSEIF [Product Category Name English] IN ('agro_industry_and_commerce','industry_commerce_and_business') THEN 'Industry'
+ELSEIF [Product Category Name English] IN ('cds_dvds_musicals','cine_photo','dvds_blu_ray','musical_instruments','music','tablets_printing_image') THEN 'Music'
+ELSEIF [Product Category Name English] IN ('cool_stuff','market_place','others','stationery','pet_shop','security_and_services','fixed_telephony','signaling_and_security') THEN 'Other'
+END

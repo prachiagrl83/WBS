@@ -1,0 +1,18 @@
+city_id,city,country,forecast_time,outlook,detailed_outlook,temperature,temperature_feels_like,clouds,rain,snow,wind_speed,wind_deg,humidity,pressure
+1,London,GB,12:00:00,Clear,clear sky,9.91,7.95,2,0,0,3.87,259,79,1015
+1,London,GB,15:00:00,Clear,clear sky,10.18,9.24,2,0,0,3.69,252,76,1017
+2,Berlin,DE,12:00:00,Clouds,broken clouds,5.95,4.28,63,0,0,2.21,172,88,1010
+2,Berlin,DE,15:00:00,Clouds,overcast clouds,6.03,4.42,92,0,0,2.15,184,88,1013
+3,Madrid,ES,12:00:00,Clouds,few clouds,12.49,11.2,18,0,0,4.77,314,54,1025
+3,Madrid,ES,15:00:00,Clouds,few clouds,13.11,11.68,21,0,0,1.47,321,46,1026
+3,Madrid,ES,18:00:00,Clouds,scattered clouds,10.98,9.41,29,0,0,1.57,337,49,1028
+4,Kyiv,UA,12:00:00,Clouds,overcast clouds,2.01,-1.04,100,0,0,2.95,357,97,985
+4,Kyiv,UA,15:00:00,Clouds,overcast clouds,2,-1.27,100,0,0,3.21,1,98,996
+4,Kyiv,UA,18:00:00,Rain,light rain,1.87,-1.63,100,0.52,0,3.48,342,97,1007
+4,Kyiv,UA,21:00:00,Rain,light rain,1.92,-1.6,100,1.89,0,3.53,352,98,1018
+4,Kyiv,UA,00:00:00,Rain,light rain,1.86,-1.55,100,0.63,0,3.36,349,98,1019
+5,Rome,IT,12:00:00,Clouds,broken clouds,13.16,12.59,75,0,0,2.18,160,79,1020
+5,Rome,IT,15:00:00,Rain,light rain,13.73,13.14,83,0.14,0,2.02,151,76,1019
+5,Rome,IT,18:00:00,Rain,moderate rain,12.65,12.22,92,5.42,0,2.55,67,86,1019
+5,Rome,IT,21:00:00,Rain,moderate rain,11.86,11.35,100,4.32,0,2.98,72,86,1018
+5,Rome,IT,00:00:00,Clouds,light rain,10.73,10.1,100,2.55,0,3.7,76,86,1016

@@ -1,0 +1,11 @@
+city_id,city_name,country_code,country,population,latitude,longitude
+1,London,EN,UK,8799800,51.5072,0.1275
+2,Berlin,DE,Germany,3677472,52.5166,13.3833
+3,Madrid,ES,Spain,3223334,40.3833,3.7166
+4,Kyiv,UA,Ukraine,2920873,50.45,30.5233
+5,Rome,IT,Italy,2844750,41.9,12.5
+6,Bucharest,RO,Romania,1883425,44.4325,26.1038
+7,Paris,FR,France,2139907,48.8567,2.3508
+8,Vienna,AT,Austria,1930000,48.2,16.3666
+9,Warsaw,PL,Poland,1860000,52.2333,21.0166
+10,Hamburg,DE,Germany,1845229,53.5652,10.0013

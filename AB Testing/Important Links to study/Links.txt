@@ -1,0 +1,19 @@
+AB Testing: https://www.youtube.com/watch?v=CH89jd4haRE&t=4s
+
+ABTasty: “The complete guide to A/B testing”. https://www.abtasty.com/ab-testing/ 
+ABTasty is a digital platform for A/B Testing, and their “complete guide” is a really good read.
+
+ABTasty: “How to A/B Test your Landing Page: a Step-by-Step Guide”. https://www.abtasty.com/blog/ab-testing-landing-page/#
+This article covers specifically A/B Tests for the “home” or “landing” page, and this is exactly what Eniac is considering!
+
+Towards Data Science: “Complete Guide to A/B Testing Design, Implementation and Pitfalls”. https://towardsdatascience.com/simple-and-complet-guide-to-a-b-testing-c34154d0ce5a
+This article goes beyond experimental design and dives into the experiment itself. No need worry too much about the formulas for now (you can skim through them), but it’s good to have an overview!
+
+“Trustworthy Online Controlled Experiments — A Practical Guide to A/B Testing”. https://experimentguide.com/
+Download and read for free the fist chapter to the most prestigious book on A/B Testing out there, written by experimentation leaders at Google, LinkedIn and Microsoft.
+
+Linkedin Learning: “The Data Science of Experimental Design”. This is a 3-hour long course with video lectures.
+https://www.linkedin.com/learning/the-data-science-of-experimental-design/features-of-an-experiment?u=69928242
+
+
+

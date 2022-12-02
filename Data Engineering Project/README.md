@@ -31,4 +31,4 @@ Lambda is an AWS service for running code seamlessly in the cloud. You will move
 2.3. Automate the pipeline
 One of the advantages of running code in AWS is that scheduling and automation are easy. In our case, we will use CloudWatch Events / EventBridge to create rules that will trigger the execution of the data collection scripts.
 
-Once completed, your pipeline should resemble the flowchart below.
+Once completed, your pipeline should resemble the flowchart as ![Flow Chart](https://user-images.githubusercontent.com/113503622/205251438-6eb7d2dd-8336-48ea-9fb3-e4f851fbc886.jpg) mentioned in Documentation folder.

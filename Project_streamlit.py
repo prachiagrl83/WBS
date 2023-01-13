@@ -59,7 +59,7 @@ def top_n_movie(movie_id,n):
     corr_movie = pd.DataFrame(similar_to_movie, columns=['PearsonR'])
     corr_movie.dropna(inplace=True)
     movie_corr_summary = corr_movie.join(rating['rating_count'])
-    movie_corr_summary.drop(movie_id, inplace=True) # drop the inputed restaurant itself
+    movie_corr_summary.drop(movie_id, inplace=True) # drop the inputed movie itself
     top10 = movie_corr_summary[movie_corr_summary['rating_count']>=10].sort_values('PearsonR', ascending=False).head(5)
     top10 = top10.merge(movies, left_index=True, right_on="movieId")
     return top10

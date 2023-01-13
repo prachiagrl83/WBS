@@ -69,15 +69,22 @@ def top_n_movie(movie_id,n):
 # title = movies.loc[title_var[0], "title"]
 
 
-title_var = 273
-title = movies.loc[title_var, "title"]
+# # with Alis help --> mind taking the indexies instead of movie IDs
 
-#items = pickle.load(open('./Item_movies.sav', 'rb'))
+a = movies.sample()
+
+m_var = a.index[0]
+m_title = movies.loc[m_var, "title"]
+m_Id = movies.loc[m_var, "movieId"]
+
+
+###  
+# items = pickle.load(open('./Item_movies.sav', 'rb'))
 
 with st.container():
     #st.subheader("Item Based Movie Recommendation System")
-    st.subheader(f"Because you liked :blue[_{title}_], You might also like..")
-    movie_names= top_n_movie(title_var, 5)
+    st.subheader(f"If you like :blue[_{m_title}_], You might also like..")
+    movie_names = top_n_movie(m_Id, 5)
     # st.write(movie_names)
     
 

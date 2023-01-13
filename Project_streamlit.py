@@ -95,7 +95,7 @@ from PIL import Image
 
 posters_list = []
 titles_list = []
-for i in top_n_movie(title_var, 5).title:
+for i in movie_names.title:
     link = mp.get_poster(title= i)
     #title_postlink = i, link
     posters_list.append(link)

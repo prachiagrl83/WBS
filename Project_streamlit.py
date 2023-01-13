@@ -14,9 +14,9 @@ movies=pd.read_csv(r'./movies.csv')
 
 top_10 = pickle.load(open('./Popular_movies.sav', 'rb'))
 
-st.title("WBSFLIX")
+st.title("SHOWFLIX")
 with st.container():
-    st.subheader("Top 5 WBSFLIX Popular Movies")
+    st.subheader("Top 5 SHOWFLIX Popular Movies")
     movie_names=list(top_10['title'][0:5])
     # st.write(movie_names)
     

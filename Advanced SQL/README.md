@@ -1,4 +1,4 @@
-Refering IMDB Movies Database Dump
+Referring IMDB Movies Database Dump
 
 This database contains many movie titles with their release year and their “rank” on imdb. 
 An extra table contains information about movie genres (why do you think another table is needed to store this information?). 

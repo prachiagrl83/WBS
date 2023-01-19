@@ -6,3 +6,6 @@ It also contains tables with the actors and directors for each title, and their 
 Finally, there is a table that contains the most common genre for each director, and another table that contains information about the role each actor played in a movie.
 ![image](https://user-images.githubusercontent.com/113503622/212683482-0aebefb8-3962-4ddb-8e76-baad23609566.png)
 For Advanced subqueries referring Magist(E-commerce)Database Dump
+
+![image](https://user-images.githubusercontent.com/113503622/213467766-c0e4920b-4881-4ce7-b959-763be7904f60.png)
+

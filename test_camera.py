@@ -9,7 +9,7 @@ def camera_input_live(
     key: Optional[str] = None,
     show_controls: bool = True,
     start_label: str = "Start capturing",
-    stop_label: str = "Pause capturing",
+    stop_label: str = "Pause capturing"
 )
 
 image = camera_input_live()

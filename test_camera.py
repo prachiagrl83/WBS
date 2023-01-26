@@ -2,7 +2,7 @@ import streamlit as st
 
 st.markdown(   f"""  <style>
    p {
-   background-image: url('fashion.jpg');
+   background-image: url('./fashion.jpg');
    }
    </style>   """,   unsafe_allow_html=True)
 

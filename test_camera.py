@@ -18,4 +18,4 @@ picture = st.camera_input("Take a picture")
 
 if picture:
     st.title('Top Similar products')
-    st.image("./)
+    st.image("./48313.jpg")

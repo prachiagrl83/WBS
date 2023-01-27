@@ -1,6 +1,8 @@
 import streamlit as st
 from PIL import Image
 
+st.set_page_config(layout="wide")
+
 page_bg_img = """
 <style>
 [data-testid-"stAppViewContainer"]{

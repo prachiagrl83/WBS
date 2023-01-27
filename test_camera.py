@@ -26,9 +26,8 @@ if picture:
     for i in range(1, 4):
         img = Image.open(f"image{i}.jpg")
         row.append(img)
-    st.image(row, width=250)
-else:
-    st.warning("Please upload an image.")
+    else:
+    st.warning("Please take a picture again.")
     
     #col1, col2, col3 = st.columns(4)
     #with col1:

@@ -18,11 +18,10 @@ st.title('FashCam')
 picture = st.camera_input("Take a picture")
 
 if picture:
-    st.title('Top Similar products')
-    
-    col1, col2, col3 = st.columns(4)
+    st.title('Top Similar products')     
     image1 = Image.open("./48313.jpg")
     new1 = image1.resize((600, 400))
+    col1, col2, col3 = st.columns(4)
     with col1:
     st.image(new1)
     image2 = Image.open("./48318.jpg")

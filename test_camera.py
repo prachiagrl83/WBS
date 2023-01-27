@@ -17,4 +17,5 @@ st.title('FashCam')
 picture = st.camera_input("Take a picture")
 
 if picture:
-    st.image(picture)
+    st.title('Top Similar products')
+    st.image("./)

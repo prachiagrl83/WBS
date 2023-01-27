@@ -11,7 +11,7 @@ background-size: cover;
 """
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
-st.title(':red[_FashCam_]')
+st.title(':red[_FashCam_] and emojis :sunglasses:')
 
 #st.image('./fashion.jpg')
 

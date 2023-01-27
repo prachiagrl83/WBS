@@ -3,7 +3,7 @@ import streamlit as st
 page_bg_img = """
 <style>
 [data-testid-"stAppViewContainer"]{
-background-image: url("https://unsplash.com/photos/nimElTcTNyY");
+background-image: url("https://unsplash.com/photos/nimElTcTNyY.png");
 background-size: cover;
 }
 </style>
@@ -19,3 +19,6 @@ picture = st.camera_input("Take a picture")
 if picture:
     st.title('Top Similar products')
     st.image("./48313.jpg")
+    st.image("./48318.jpg")
+    st.image("./48319.jpg")
+    st.image("./48320.jpg")

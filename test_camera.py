@@ -3,7 +3,7 @@ import streamlit as st
 page_by_img = """
 <style>
 [data-testid-"stAppViewContainer"]{
-background-image: url("https://unsplash.com/photos/nimElTcTNyY)
+background-image: url("https://unsplash.com/photos/nimElTcTNyY);
 background-size: cover;
 }
 </style>

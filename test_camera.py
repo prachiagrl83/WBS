@@ -11,7 +11,7 @@ background-size: cover;
 """
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
-st.title('FashCam')
+st.title(':red[_FashCam_]')
 
 #st.image('./fashion.jpg')
 

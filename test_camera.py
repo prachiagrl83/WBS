@@ -19,7 +19,7 @@ picture = st.camera_input("Take a picture")
 if picture:
     st.title('Top Similar products')
     image1 = "./48313.jpg"
-    new1 = image1.resize((600, 400))
+    new1 = image1.resize(600, 400)
     st.image(new1)
     #st.image("./48318.jpg")
     #st.image("./48319.jpg")

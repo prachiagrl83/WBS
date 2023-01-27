@@ -16,10 +16,9 @@ st.title(':red[_FashCam_] :sunglasses:')
 #st.image('./fashion.jpg')
 
 picture = st.camera_input("Take a picture")
-
-
 if picture:
     st.title('Top Similar products') 
+    st.balloons()
     #col1, col2, col3 = st.columns(4)
     #with col1:
     image1 = Image.open("./48313.jpg")

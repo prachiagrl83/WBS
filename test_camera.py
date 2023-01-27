@@ -11,10 +11,7 @@ background-size: cover;
 }
 </style>
 """
-
 st.markdown(page_bg_img, unsafe_allow_html=True)
- home_img = "https://th.bing.com/th/id/OIP.P_SRM8TgPRk1jWMYSkeQxQHaFR?pid=ImgDet&rs=1"
- st.image(home_img, width=800)
 
 st.title(':red[_FashCam_] :sunglasses:')
 

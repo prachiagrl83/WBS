@@ -21,6 +21,15 @@ picture = st.camera_input("Take a picture")
 if picture:
     st.title('Top Similar products') 
     st.balloons()
+    # Now display four more images
+    row = []
+    for i in range(1, 4):
+        img = Image.open(f"image{i}.jpg")
+        row.append(img)
+    st.image(row, width=250)
+else:
+    st.warning("Please upload an image.")
+    
     #col1, col2, col3 = st.columns(4)
     #with col1:
     image1 = Image.open("./48313.jpg")

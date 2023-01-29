@@ -1,18 +1,6 @@
 import streamlit as st
 from PIL import Image
 
-#st.set_page_config(layout="wide")
-
-page_bg_img = """
-<style>
-[data-testid-"stAppViewContainer"]{
-background-image: url("https://unsplash.com/photos/nimElTcTNyY.png");
-background-size: cover;
-}
-</style>
-"""
-
-st.markdown(page_bg_img, unsafe_allow_html=True)
 st.title(':red[_FashCam_] :sunglasses:')
 
 #st.image('./fashion.jpg')

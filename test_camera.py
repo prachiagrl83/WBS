@@ -10,15 +10,13 @@ st.set_page_config(page_title="Image Uploader",page_icon=":camera:", layout="wid
 #st.title(':red[_FashCam_] :sunglasses:')
 
 
- title_container = st.beta_container()
-        col1, col2 = st.beta_columns([1, 20])
-        image = Image.open('Fashion_Camera.jpg')
-        with title_container:
-            with col1:
-                st.image(image, width=64)
-            with col2:
-                st.markdown('<h1 style="color: purple;">FashCam</h1>',
-                            unsafe_allow_html=True)
+col1, mid, col2 = st.beta_columns([1,1,20])
+with col1:
+    st.image('Fashion_Camera.jpg', width=60)
+with col2:
+    #st.write('A Name')
+    st.markdown('<h1 style="color: purple;">FashCam</h1>',
+                            unsafe_allow_html=True
 
 
 

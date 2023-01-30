@@ -40,7 +40,7 @@ if uploaded_file is not None:
 else:
     st.warning("Please upload an image.")
 
-picture = st.camera_input("2.Take a picture")
+picture = st.sidebar.camera_input("2.Take a picture")
 if picture is not None:
     #img = Image.open(picture)
     st.success("Image saved!")

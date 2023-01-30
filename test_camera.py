@@ -3,9 +3,9 @@ from PIL import Image
 
 st.set_page_config(page_title="Image Recommendation System",page_icon=":camera:",layout="wide")
 
-col1,mid,col2 = st.columns([1,30,100])
+col1,mid,col2 = st.columns([1,20,80])
 with col1:
-    st.image('Fashion_Camera1.jpg', width=180)
+    st.image('Fashion_Camera1.jpg', width=150)
 with col2:
     #st.write('A Name')
     st.markdown('<h1 style="color: red;font-size: 70px;">FashCam</h1>',

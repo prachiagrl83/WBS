@@ -14,8 +14,9 @@ with col2:
                             unsafe_allow_html=True)
     
 st.write(
-    "Try uploading an image in order to search similar product images."
-)
+    "Our idea is to build a new search engine :red[_FashCam_]. We know that online shopping can be frustrating, especially when you're trying to find fashion products that are similar to ones you've seen in real life. That's why we have developed a cutting-edge image recognition technology that makes it easy to find the clothes you want. 
+With :red[_FashCam_], you can simply take a picture of an item with your phone and our algorithm will match it with similar products available for purchase online. It's that simple!
+")
 st.sidebar.write("## Upload or Take a Picture")
 
 

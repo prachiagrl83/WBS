@@ -30,7 +30,7 @@ else:
 picture = st.camera_input("Take a picture")
 if picture:
     st.title('Top Similar products') 
-    st.balloons()
+    #st.balloons()
     #col1, col2, col3 = st.columns(4)
     #with col1:
     image1 = Image.open("./48313.jpg")
@@ -48,3 +48,4 @@ if picture:
     image4 = Image.open("./48320.jpg")
     new4 = image4.resize((500, 300))    
     st.image(new4)
+    row.append(new1,new2,new3,new4)

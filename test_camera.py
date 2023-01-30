@@ -3,7 +3,11 @@ from PIL import Image
 
 st.set_page_config(page_title="Image Uploader",page_icon=":camera:", layout="wide")
 
-st.title(':red[_FashCam_] :sunglasses:')
+image = Image.open('/.Fashion_Camera.jpg')
+
+st.image(image, width=500, caption=':red[_FashCam_] :sunglasses:')
+
+#st.title(':red[_FashCam_] :sunglasses:')
 
 
 

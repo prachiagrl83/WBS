@@ -13,8 +13,8 @@ with col2:
     st.markdown('<h1 style="color: black;font-size: 30px;">...a Image Search Engine</h1>',
                             unsafe_allow_html=True)
     
-    st.markdown("Our idea is to build a new search engine **:red[_FashCam_]**. We know that online shopping can be frustrating, especially when you're trying to find fashion products that are similar to ones you've seen in real life. That's why we have developed a cutting-edge image recognition technology that makes it easy to find the fashion you want.") 
-    st.markdown("With **:red[_FashCam_]**, you can simply take a picture of an item or upload an image and our algorithm will match it with similar products available for purchase online. It's that simple!")
+    st.markdown("Our idea is to build a new search engine **:red[_FashCam_]**:camera:. We know that online shopping can be frustrating, especially when you're trying to find fashion products that are similar to ones you've seen in real life. That's why we have developed a cutting-edge image recognition technology that makes it easy to find the fashion you want.") 
+    st.markdown("With **:red[_FashCam_]**:camera:, you can simply take a picture of an item or upload an image and our algorithm will match it with similar products available for purchase online. It's that simple!")
 st.sidebar.write("## Upload or Take a Picture")
 
 
@@ -28,7 +28,7 @@ if uploaded_file is not None:
     # image.save_img(uploaded_file.name, uploaded_file)
     st.sidebar.success("Image saved!")
     st.image(img, width=250, caption="Uploaded Image.")
-    st.title('Top Similar products')
+    st.title('Top Similar products:camera:')
     # Now display four more images
     row = []
     for i in range(1, 4):
@@ -44,7 +44,7 @@ if picture is not None:
     #img = Image.open(picture)
     st.sidebar.success("Image saved!")
     st.image(picture, width=250, caption="Picture Taken.")
-    st.title('Top Similar products')    
+    st.title('Top Similar products:camera:')    
     # Now display four more images
     row = []
     for i in range(1, 4):

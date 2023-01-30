@@ -10,7 +10,7 @@ st.set_page_config(page_title="Image Uploader",page_icon=":camera:", layout="wid
 #st.title(':red[_FashCam_] :sunglasses:')
 
 
-col1, mid, col2 = st.beta_columns([1,1,20])
+col1, mid, col2 = st.columns([1,1,20])
 with col1:
     st.image('Fashion_Camera.jpg', width=60)
 with col2:

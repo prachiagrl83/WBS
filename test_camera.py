@@ -37,7 +37,7 @@ if uploaded_file is not None:
     st.image(row, width=250, caption=[
              "similarity 78%", "similarity 79%", "similarity 60%"])
 else:
-    st.warning("Please upload an image.")
+    st.sidebar.warning("Please upload an image.")
 
 picture = st.sidebar.camera_input("2.Take a picture")
 if picture is not None:
@@ -53,4 +53,4 @@ if picture is not None:
     st.image(row, width=250, caption=[
              "similarity 90%", "similarity 89%", "similarity 88%"])
 else:
-    st.warning("Please take a picture.")
+    st.sidebar.warning("Please take a picture.")

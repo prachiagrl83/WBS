@@ -12,7 +12,8 @@ st.set_page_config(page_title="Image Uploader",page_icon=":camera:", layout="wid
 
 col1,mid,col2 = st.columns([1,1,100])
 with col1:
-    st.image('Fashion_Camera.jpg', width=300)
+    st.image('Fashion_Camera.jpg')
+    image.resize((100,100))
 with col2:
     #st.write('A Name')
     st.markdown('<h1 style="color: red;">FashCam</h1>',

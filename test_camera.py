@@ -1,9 +1,9 @@
 import streamlit as st
 from PIL import Image
 
-st.set_page_config(page_title="Image Uploader",page_icon=":camera:", layout="wide")
+st.set_page_config(page_title="Image Uploader",page_icon=":camera:")
 
-col1,mid,col2 = st.columns([1,10,100])
+col1,mid,col2 = st.columns([1,20,100])
 with col1:
     st.image('Fashion_Camera1.jpg', width=180)
 with col2:

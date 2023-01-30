@@ -34,12 +34,14 @@ if picture:
     #col1, col2, col3 = st.columns(4)
     #with col1:
     image1 = Image.open("./48313.jpg")
-    new1 = image1.resize((500, 300))    
-    st.image(new1)
+    new1 = image1.resize((500, 300))
+    row.append(new1)
+    st.image(row, width=250,new1)
     #with col2:
     image2 = Image.open("./48318.jpg")
-    new2 = image2.resize((500, 300))    
-    st.image(new2)
+    new2 = image2.resize((500, 300))
+    row.append(new2)
+    st.imagerow, width=250,new2)
     #with col3:
     image3 = Image.open("./48319.jpg")
     new3 = image3.resize((500, 300))    
@@ -48,4 +50,4 @@ if picture:
     image4 = Image.open("./48320.jpg")
     new4 = image4.resize((500, 300))    
     st.image(new4)
-    row.append(new1,new2,new3,new4)
+    

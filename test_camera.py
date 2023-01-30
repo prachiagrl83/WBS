@@ -15,7 +15,7 @@ with col2:
 
 # Upload the image file
 uploaded_file = st.file_uploader(
-    "1. Choose an image from your computer", type=["jpg", "jpeg", "png"])
+    "1.Choose an image from your computer", type=["jpg", "jpeg", "png"])
 if uploaded_file is not None:
     # Save the image to disk
     # save image using pil library
@@ -34,7 +34,7 @@ if uploaded_file is not None:
 else:
     st.warning("Please upload an image.")
 
-picture = st.camera_input("2. Take a picture")
+picture = st.camera_input("2.Take a picture")
 if picture is not None:
     #img = Image.open(picture)
     st.success("Image saved!")

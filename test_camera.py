@@ -5,7 +5,7 @@ st.set_page_config(page_title="Image Uploader",page_icon=":camera:", layout="wid
 
 image = Image.open('Fashion_Camera.jpg')
 
-st.image(image, width=500, height = 300)
+st.image(image, width=500)
 
 st.title(':red[_FashCam_] :sunglasses:')
 

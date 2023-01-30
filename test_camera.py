@@ -9,7 +9,7 @@ st.title(':red[_FashCam_] :sunglasses:')
 
 # Upload the image file
 uploaded_file = st.file_uploader(
-    "Choose an image...", type=["jpg", "jpeg", "png"])
+    "Choose an image from your computer", type=["jpg", "jpeg", "png"])
 if uploaded_file is not None:
     # Save the image to disk
     # save image using pil library

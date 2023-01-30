@@ -29,8 +29,11 @@ else:
     st.warning("Please upload an image.")
 
 picture = st.camera_input("Take a picture")
-if picture:
-    st.title('Top Similar products') 
+if picture is not None:
+    img = Image.open(picture)
+    st.success("Image saved!")
+    st.image(img, width=250, caption="Picture Taken.")
+    st.title('Top Similar products')    
     # Now display four more images
     row = []
     for i in range(1, 4):

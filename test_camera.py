@@ -20,7 +20,7 @@ st.sidebar.write("## Upload or Take a Picture")
 
 
 # Upload the image file
-uploaded_file = st.sidebar.st.file_uploader(
+uploaded_file = st.sidebar.file_uploader(
     "1.Choose an image from your computer", type=["jpg", "jpeg", "png"])
 if uploaded_file is not None:
     # Save the image to disk

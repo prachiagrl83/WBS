@@ -1,9 +1,11 @@
 import streamlit as st
 from PIL import Image
 
+st.set_page_config(page_title="Image Uploader",page_icon=":camera:", layout="wide")
+
 st.title(':red[_FashCam_] :sunglasses:')
 
-st.set_page_config(page_title="Image Uploader",page_icon=":camera:", layout="wide")
+
 
 # Upload the image file
 uploaded_file = st.file_uploader(

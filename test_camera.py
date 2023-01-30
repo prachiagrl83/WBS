@@ -30,9 +30,9 @@ else:
 
 picture = st.camera_input("Take a picture")
 if picture is not None:
-    img = Image.open(picture)
+    #img = Image.open(picture)
     st.success("Image saved!")
-    st.image(img, width=250, caption="Picture Taken.")
+    st.image(picture, width=250, caption="Picture Taken.")
     st.title('Top Similar products')    
     # Now display four more images
     row = []

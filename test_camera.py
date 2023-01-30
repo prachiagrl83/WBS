@@ -17,6 +17,7 @@ if uploaded_file is not None:
     # image.save_img(uploaded_file.name, uploaded_file)
     st.success("Image saved!")
     st.image(img, width=250, caption="Uploaded Image.")
+    st.title('Top Similar products')
     # Now display four more images
     row = []
     for i in range(1, 4):

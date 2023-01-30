@@ -1,16 +1,16 @@
 import streamlit as st
 from PIL import Image
 
-st.set_page_config(page_title="Image Recommendation System",page_icon=":camera:",layout="wide")
+st.set_page_config(page_title="Image Recommendation System",,layout="wide")
 
-col1,mid,col2 = st.columns([1,20,80])
+col1,mid,col2 = st.columns([1,10,80])
 with col1:
     st.image('Fashion_Camera1.jpg', width=150)
 with col2:
     #st.write('A Name')
     st.markdown('<h1 style="color: red;font-size: 70px;">FashCam</h1>',
                             unsafe_allow_html=True)
-    st.markdown('<h2 style="color: black;font-size: 30px;">...a Image Search Engine</h1>',
+    st.markdown('<h1 style="color: black;font-size: 30px;">...a Image Search Engine</h1>',
                             unsafe_allow_html=True)
     
     st.markdown("Our idea is to build a new search engine **:red[_FashCam_]**. We know that online shopping can be frustrating, especially when you're trying to find fashion products that are similar to ones you've seen in real life. That's why we have developed a cutting-edge image recognition technology that makes it easy to find the fashion you want.") 

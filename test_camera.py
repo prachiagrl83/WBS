@@ -14,7 +14,7 @@ with col2:
                             unsafe_allow_html=True)
     
     st.markdown("Our idea is to build a new search engine **:red[_FashCam_]**. We know that online shopping can be frustrating, especially when you're trying to find fashion products that are similar to ones you've seen in real life. That's why we have developed a cutting-edge image recognition technology that makes it easy to find the fashion you want.") 
-    st.markdown("With **:red[_FashCam_]**, you can simply take a picture of an item with your phone and our algorithm will match it with similar products available for purchase online. It's that simple!")
+    st.markdown("With **:red[_FashCam_]**, you can simply take a picture of an item or upload an image and our algorithm will match it with similar products available for purchase online. It's that simple!")
 st.sidebar.write("## Upload or Take a Picture")
 
 

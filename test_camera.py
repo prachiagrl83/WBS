@@ -3,16 +3,9 @@ from PIL import Image
 
 st.set_page_config(page_title="Image Uploader",page_icon=":camera:", layout="wide")
 
-#image = Image.open('Fashion_Camera.jpg')
-#img = image.resize((1500,500))
-#st.image(img)
-#st.image(image, width=1920)
-#st.title(':red[_FashCam_] :sunglasses:')
-
-
 col1,mid,col2 = st.columns([1,1,100])
 with col1:
-    st.image('Fashion_Camera.jpg',width=100)
+    st.image('Fashion_Camera.jpg',width=300)
 with col2:
     #st.write('A Name')
     st.markdown('<h1 style="color: red;">FashCam</h1>',

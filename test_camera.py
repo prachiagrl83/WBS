@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-st.set_page_config(page_title="Image Uploader",page_icon=":camera:")
+st.set_page_config(page_title="Image Recommendation System",page_icon=":camera:",layout="wide")
 
 col1,mid,col2 = st.columns([1,30,100])
 with col1:
@@ -12,6 +12,11 @@ with col2:
                             unsafe_allow_html=True)
     st.markdown('<h2 style="color: black;font-size: 30px;">...a Image Search Engine</h1>',
                             unsafe_allow_html=True)
+    
+st.write(
+    "Try uploading an image in order to search similar product images."
+)
+st.sidebar.write("## Upload an Image")
 
 
 # Upload the image file

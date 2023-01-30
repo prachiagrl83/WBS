@@ -3,7 +3,7 @@ from PIL import Image
 
 st.set_page_config(page_title="Image Recommendation System",layout="wide")
 
-col1,mid,col2 = st.columns([1,15,50])
+col1,mid,col2 = st.columns([1,15,100])
 with col1:
     st.image('Fashion_Camera1.jpg', width=150)
 with col2:

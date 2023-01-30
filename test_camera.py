@@ -8,7 +8,7 @@ with col1:
     st.image('Fashion_Camera1.jpg', width=150)
 with col2:
     #st.write('A Name')
-    st.markdown('<h1 style="color: red;font-size: 70px;">FashCam</h1>',
+    st.markdown('<h1 style="color: red;font-size: 70px;">FashCam:camera:</h1>',
                             unsafe_allow_html=True)
     st.markdown('<h1 style="color: black;font-size: 30px;">...a Image Search Engine</h1>',
                             unsafe_allow_html=True)

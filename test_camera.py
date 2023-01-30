@@ -3,7 +3,28 @@ from PIL import Image
 
 st.title(':red[_FashCam_] :sunglasses:')
 
-#st.image('./fashion.jpg')
+st.set_page_config(page_title="Image Uploader",
+                   page_icon=":camera:", layout="wide")
+
+# Upload the image file
+uploaded_file = st.file_uploader(
+    "Choose an image...", type=["jpg", "jpeg", "png"])
+if uploaded_file is not None:
+    # Save the image to disk
+    # save image using pil library
+    img = Image.open(uploaded_file)
+    # image.save_img(uploaded_file.name, uploaded_file)
+    st.success("Image saved!")
+    st.image(img, width=250, caption="Uploaded Image.")
+    # Now display four more images
+    row = []
+    for i in range(1, 4):
+        img = Image.open(f"image{i}.jpg")
+        row.append(img)
+    st.image(row, width=250, caption=[
+             "similarity 78%", "similarity 79%", "similarity 60%"])
+else:
+    st.warning("Please upload an image.")
 
 picture = st.camera_input("Take a picture")
 if picture:

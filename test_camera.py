@@ -16,7 +16,7 @@ with col1:
 with col2:
     #st.write('A Name')
     st.markdown('<h1 style="color: purple;">FashCam</h1>',
-                            unsafe_allow_html=True
+                            unsafe_allow_html=True)
 
 
 

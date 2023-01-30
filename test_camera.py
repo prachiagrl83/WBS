@@ -26,7 +26,7 @@ if uploaded_file is not None:
     # save image using pil library
     img = Image.open(uploaded_file)
     # image.save_img(uploaded_file.name, uploaded_file)
-    st.sidebar.success("Image saved!")
+    #st.sidebar.success("Image saved!")
     st.image(img, width=250, caption="Uploaded Image.")
     st.title('Top Similar products:camera:')
     # Now display four more images
@@ -42,7 +42,7 @@ else:
 picture = st.sidebar.camera_input("2.Take a picture")
 if picture is not None:
     #img = Image.open(picture)
-    st.sidebar.success("Image saved!")
+    #st.sidebar.success("Image saved!")
     st.image(picture, width=250, caption="Picture Taken.")
     st.title('Top Similar products:camera:')    
     # Now display four more images

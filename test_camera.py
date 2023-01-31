@@ -24,16 +24,16 @@ st.sidebar.write("## Upload or Take a Picture")
 
 
 # Upload the image file
-uploaded_file = st.sidebar.file_uploader(
-    "1.Choose an image from your computer", type=["jpg", "jpeg", "png"])
-if uploaded_file is not None:
+#uploaded_file = st.sidebar.file_uploader(
+    #"1.Choose an image from your computer", type=["jpg", "jpeg", "png"])
+#if uploaded_file is not None:
     # Save the image to disk
     # save image using pil library
-    img = Image.open(uploaded_file)
+    #img = Image.open(uploaded_file)
     # image.save_img(uploaded_file.name, uploaded_file)
     #st.sidebar.success("Image saved!")
-    st.image(img, width=250, caption="Uploaded Image.")
-    st.title('Top Similar products:camera:')
+    #st.image(img, width=250, caption="Uploaded Image.")
+    #st.title('Top Similar products:camera:')
     
     def App():
     

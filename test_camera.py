@@ -35,7 +35,7 @@ st.sidebar.write("## Upload or Take a Picture")
     #st.image(img, width=250, caption="Uploaded Image.")
     #st.title('Top Similar products:camera:')
     
-    def App():
+def App():
     
     #@st.cache(allow_output_mutation=True)
     def load_model():

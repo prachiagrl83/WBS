@@ -51,17 +51,17 @@ st.sidebar.write("## Upload or Take a Picture")
     if __name__ == '__main__':
       main()
 
-    file = st.file_uploader(" ", accept_multiple_files=False, help="Only one file at a time. The image should be of good quality")
+    file = st.sidebar.file_uploader(" ", accept_multiple_files=False, help="Only one file at a time. The image should be of good quality")
 
     if file is None:
-      st.subheader("Please upload a product image using the browse button :point_up:")
-      st.write("Sample images can be found [here](https://github.com/prachiagrl83/WBS/tree/Prachi/Sample_images) !")
+      st.sidebar.subheader("Please upload a product image using the browse button :point_up:")
+      st.sidebar.write("Sample images can be found [here](https://github.com/prachiagrl83/WBS/tree/Prachi/Sample_images) !")
       #image1 = Image.open('./web_img/compared.JPG')
       #st.image(image1, use_column_width=True)
     
     else:
-      st.subheader("Thank you for uploading the image. Below you see image which you have just uploaded!")
-      st.subheader("Scroll down to see the prediction results...")  
+      st.sidebar.subheader("Thank you for uploading the image. Below you see image which you have just uploaded!")
+      st.sidebar.subheader("Scroll down to see the prediction results...")  
       with st.spinner('Processing your image now.......'):
 
         path = file

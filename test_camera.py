@@ -5,7 +5,7 @@ st.set_page_config(page_title="Image Recommendation System",layout="wide")
 
 col1,mid,col2 = st.columns([1,15,100])
 with col1:
-    st.image('Fashion_Camera1.jpg', width=150)
+    st.image('Fashion_Camera2.jpg', width=150)
 with col2:
     #st.write('A Name')
     st.markdown('<h1 style="color: red;font-size: 70px;">FashCam</h1>',

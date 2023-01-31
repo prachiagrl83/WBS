@@ -37,7 +37,7 @@ st.sidebar.write("## Upload or Take a Picture")
     
     def App():
     
-    @st.cache(allow_output_mutation=True)
+    #@st.cache(allow_output_mutation=True)
     def load_model():
         model=tf.keras.models.load_model("./model_fashion.h5")
         return model

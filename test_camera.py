@@ -1,5 +1,10 @@
 import streamlit as st
 from PIL import Image
+import tensorflow as tf
+import time
+from PIL import Image, ImageOps
+import numpy as np
+import webbrowser
 
 st.set_page_config(page_title="Image Recommendation System",layout="wide")
 
@@ -29,15 +34,55 @@ if uploaded_file is not None:
     #st.sidebar.success("Image saved!")
     st.image(img, width=250, caption="Uploaded Image.")
     st.title('Top Similar products:camera:')
-    # Now display four more images
-    row = []
-    for i in range(1, 4):
-        img = Image.open(f"image{i}.jpg")
-        row.append(img)
-    st.image(row, width=250, caption=[
-             "similarity 78%", "similarity 79%", "similarity 60%"])
-else:
-    st.sidebar.warning("Please upload an image.")
+    
+    def App():
+    
+    @st.cache(allow_output_mutation=True)
+    def load_model():
+        model=tf.keras.models.load_model("./model_fashion.h5")
+        return model
+
+    with st.spinner('Please wait, while the model is being loaded..'):
+      model=load_model()
+
+    def main():
+      st.header(":red[Prediction_]")
+    
+    if __name__ == '__main__':
+      main()
+
+    file = st.file_uploader(" ", accept_multiple_files=False, help="Only one file at a time. The image should be of good quality")
+
+    if file is None:
+      st.subheader("Please upload a product image using the browse button :point_up:")
+      st.write("Sample images can be found [here](https://github.com/prachiagrl83/WBS/tree/Prachi/Sample_images) !")
+      #image1 = Image.open('./web_img/compared.JPG')
+      #st.image(image1, use_column_width=True)
+    
+    else:
+      st.subheader("Thank you for uploading the image. Below you see image which you have just uploaded!")
+      st.subheader("Scroll down to see the prediction results...")  
+      with st.spinner('Processing your image now.......'):
+
+        path = file
+
+        img = tf.keras.utils.load_img(
+        path, target_size=(180, 180)
+        )
+
+        st.image(img, use_column_width=True)
+
+        img_array = tf.keras.utils.img_to_array(img)
+        img_array = tf.expand_dims(img_array, 0) # Create a batch
+
+        predictions = model.predict(img_array)
+        score = tf.sigmoid(predictions)
+
+        time.sleep(2)
+        st.success('Prediction complete!')
+        st.subheader(
+        f"This product image most likely belongs to...!"
+        )
 
 picture = st.sidebar.camera_input("2.Take a picture")
 if picture is not None:
